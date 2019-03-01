@@ -19,6 +19,9 @@
 		BF2DFBD52228B6D9001D0E9C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DFBD42228B6D9001D0E9C /* TableViewCell.swift */; };
 		ED2E83D82229AEBC000509A0 /* PacotesViagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E83D72229AEBC000509A0 /* PacotesViagemViewController.swift */; };
 		ED2E83DA2229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E83D92229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift */; };
+		ED2E83DF2229CFE0000509A0 /* DetalhesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E83DE2229CFE0000509A0 /* DetalhesViagensViewController.swift */; };
+		ED2E83E12229D6B9000509A0 /* PacoteViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E83E02229D6B9000509A0 /* PacoteViagem.swift */; };
+		ED2E83E52229D817000509A0 /* PacoteViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E83E42229D817000509A0 /* PacoteViagemDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		BF2DFBD42228B6D9001D0E9C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		ED2E83D72229AEBC000509A0 /* PacotesViagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagemViewController.swift; sourceTree = "<group>"; };
 		ED2E83D92229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagemCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED2E83DE2229CFE0000509A0 /* DetalhesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViagensViewController.swift; sourceTree = "<group>"; };
+		ED2E83E02229D6B9000509A0 /* PacoteViagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagem.swift; sourceTree = "<group>"; };
+		ED2E83E42229D817000509A0 /* PacoteViagemDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagemDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				BF2DFBA12228AEBE001D0E9C /* Viagens */,
+				ED2E83DB2229CFA0000509A0 /* DetalhesViagem */,
 				BF2DFBB62228AEC0001D0E9C /* ViagensTests */,
 				BF2DFBC12228AEC0001D0E9C /* ViagensUITests */,
 				BF2DFBA02228AEBE001D0E9C /* Products */,
@@ -112,6 +119,7 @@
 				BF2DFBA92228AEC0001D0E9C /* Assets.xcassets */,
 				BF2DFBAB2228AEC0001D0E9C /* LaunchScreen.storyboard */,
 				BF2DFBAE2228AEC0001D0E9C /* Info.plist */,
+				ED2E83E42229D817000509A0 /* PacoteViagemDAO.swift */,
 				BF2DFBD22228B5CA001D0E9C /* ViagemDAO.swift */,
 				BF2DFBD62228B914001D0E9C /* Model */,
 				BF2DFBD82228B933001D0E9C /* Home */,
@@ -142,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				BF2DFBD02228B50D001D0E9C /* Viagem.swift */,
+				ED2E83E02229D6B9000509A0 /* PacoteViagem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,6 +203,30 @@
 				ED2E83D92229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		ED2E83DB2229CFA0000509A0 /* DetalhesViagem */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E83DD2229CFC1000509A0 /* Controller */,
+				ED2E83DC2229CFBA000509A0 /* View */,
+			);
+			path = DetalhesViagem;
+			sourceTree = "<group>";
+		};
+		ED2E83DC2229CFBA000509A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED2E83DD2229CFC1000509A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E83DE2229CFE0000509A0 /* DetalhesViagensViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,9 +364,12 @@
 				BF2DFBA52228AEBE001D0E9C /* ViewController.swift in Sources */,
 				ED2E83D82229AEBC000509A0 /* PacotesViagemViewController.swift in Sources */,
 				BF2DFBD12228B50D001D0E9C /* Viagem.swift in Sources */,
+				ED2E83DF2229CFE0000509A0 /* DetalhesViagensViewController.swift in Sources */,
+				ED2E83E52229D817000509A0 /* PacoteViagemDAO.swift in Sources */,
 				BF2DFBA32228AEBE001D0E9C /* AppDelegate.swift in Sources */,
 				ED2E83DA2229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift in Sources */,
 				BF2DFBD32228B5CA001D0E9C /* ViagemDAO.swift in Sources */,
+				ED2E83E12229D6B9000509A0 /* PacoteViagem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
