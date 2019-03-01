@@ -21,6 +21,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         self.tableView.dataSource = self
         self.tableView.delegate = self
+        
+//        tableView.rowHeight = UITableView.automaticDimension
+//        tableView.estimatedRowHeight = 600
 
         
     }
@@ -34,7 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let viagemAtual = listaViagens[indexPath.row]
         cell.labelTitulo.text = viagemAtual.titulo
         cell.labelQuantidadeDias.text = "\(viagemAtual.quantidadeDeDias) dias"
-        cell.labelPreco.text = viagemAtual.preco
+        cell.labelPreco.text = "R$ \(viagemAtual.preco)"
         cell.imagemViagem.image = UIImage(named: viagemAtual.caminhoDaImagem)
         cell.imagemViagem.layer.cornerRadius = 10
         cell.imagemViagem.layer.masksToBounds = true
@@ -42,7 +45,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 240
+        return UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone ? 240:270
     }
     
 
