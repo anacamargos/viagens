@@ -21,7 +21,7 @@ class DetalhesViagensViewController: UIViewController {
     var pacoteSelecionado: PacoteViagem? = nil
     
     @IBAction func voltar(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     override func viewDidLoad() {

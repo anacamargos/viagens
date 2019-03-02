@@ -415,7 +415,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlk-BT-e1N">
-                                <rect key="frame" x="10" y="25" width="25" height="25"/>
+                                <rect key="frame" x="10" y="35" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="6In-4N-P4q"/>
                                     <constraint firstAttribute="height" constant="25" id="T6Z-Bn-W5B"/>
@@ -676,7 +676,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="mlk-BT-e1N" firstAttribute="top" secondItem="u7f-FR-U5c" secondAttribute="top" constant="25" id="8JO-AK-WpL"/>
+                            <constraint firstItem="mlk-BT-e1N" firstAttribute="top" secondItem="u7f-FR-U5c" secondAttribute="top" constant="35" id="8JO-AK-WpL"/>
                             <constraint firstItem="57G-XC-m4O" firstAttribute="leading" secondItem="hij-xI-vDd" secondAttribute="leading" constant="10" id="8e9-LZ-IWf"/>
                             <constraint firstAttribute="bottom" secondItem="57G-XC-m4O" secondAttribute="bottom" id="Jo3-dA-4yY"/>
                             <constraint firstItem="57G-XC-m4O" firstAttribute="top" secondItem="6Wg-MT-Imz" secondAttribute="bottom" id="RgF-dh-B8Z"/>
