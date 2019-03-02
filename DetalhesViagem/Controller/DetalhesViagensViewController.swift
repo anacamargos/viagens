@@ -14,7 +14,6 @@ class DetalhesViagensViewController: UIViewController {
     @IBOutlet weak var labelTituloPacoteViagem: UILabel!
     @IBOutlet weak var labelDescricaoPacoteViagem: UILabel!
     @IBOutlet weak var labelDataViagem: UILabel!
-    
     @IBOutlet weak var labelPrecoPacoteViagem: UILabel!
     
     @IBOutlet weak var textFieldData: UITextField!
@@ -24,6 +23,7 @@ class DetalhesViagensViewController: UIViewController {
     @IBAction func voltar(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -56,8 +56,4 @@ class DetalhesViagensViewController: UIViewController {
         sender.inputView = datePickerView
         datePickerView.addTarget(self, action: #selector (exibeDataTextField(sender:)) , for: .valueChanged)
     }
-    
-    
-
-
 }

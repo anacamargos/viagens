@@ -15,7 +15,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var labelPreco: UILabel!
     @IBOutlet weak var imagemViagem: UIImageView!
     
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,5 +25,4 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }
