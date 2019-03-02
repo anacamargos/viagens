@@ -10,6 +10,16 @@ import UIKit
 
 class ConfirmacaoPagamentoViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var labelTituloPacoteViagem: UILabel!
+    
+    @IBOutlet weak var labelHotel: UILabel!
+    @IBOutlet weak var labelData: UILabel!
+    
+    @IBOutlet weak var labelDescricao: UILabel!
+    @IBOutlet weak var labelQuantidadePessoas: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
