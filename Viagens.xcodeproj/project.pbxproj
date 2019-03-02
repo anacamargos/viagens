@@ -17,6 +17,7 @@
 		BF2DFBD12228B50D001D0E9C /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DFBD02228B50D001D0E9C /* Viagem.swift */; };
 		BF2DFBD32228B5CA001D0E9C /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DFBD22228B5CA001D0E9C /* ViagemDAO.swift */; };
 		BF2DFBD52228B6D9001D0E9C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DFBD42228B6D9001D0E9C /* TableViewCell.swift */; };
+		BF3B44A7222AD4DD00087D5C /* ConfirmacaoPagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3B44A6222AD4DD00087D5C /* ConfirmacaoPagamentoViewController.swift */; };
 		ED2E83D82229AEBC000509A0 /* PacotesViagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E83D72229AEBC000509A0 /* PacotesViagemViewController.swift */; };
 		ED2E83DA2229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E83D92229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift */; };
 		ED2E83DF2229CFE0000509A0 /* DetalhesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2E83DE2229CFE0000509A0 /* DetalhesViagensViewController.swift */; };
@@ -58,6 +59,7 @@
 		BF2DFBD02228B50D001D0E9C /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		BF2DFBD22228B5CA001D0E9C /* ViagemDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDAO.swift; sourceTree = "<group>"; };
 		BF2DFBD42228B6D9001D0E9C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BF3B44A6222AD4DD00087D5C /* ConfirmacaoPagamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmacaoPagamentoViewController.swift; sourceTree = "<group>"; };
 		ED2E83D72229AEBC000509A0 /* PacotesViagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagemViewController.swift; sourceTree = "<group>"; };
 		ED2E83D92229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagemCollectionViewCell.swift; sourceTree = "<group>"; };
 		ED2E83DE2229CFE0000509A0 /* DetalhesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViagensViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				BF2DFBA12228AEBE001D0E9C /* Viagens */,
-				ED2E83DB2229CFA0000509A0 /* DetalhesViagem */,
 				BF2DFBB62228AEC0001D0E9C /* ViagensTests */,
 				BF2DFBC12228AEC0001D0E9C /* ViagensUITests */,
 				BF2DFBA02228AEBE001D0E9C /* Products */,
@@ -124,6 +125,8 @@
 				BF2DFBD62228B914001D0E9C /* Model */,
 				BF2DFBD82228B933001D0E9C /* Home */,
 				ED2E83D32229AD81000509A0 /* Pacotes */,
+				ED2E83DB2229CFA0000509A0 /* DetalhesViagem */,
+				BF3B44A4222AD48300087D5C /* ConfirmacaoPagamento */,
 			);
 			path = Viagens;
 			sourceTree = "<group>";
@@ -180,6 +183,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		BF3B44A4222AD48300087D5C /* ConfirmacaoPagamento */ = {
+			isa = PBXGroup;
+			children = (
+				BF3B44A5222AD4BF00087D5C /* Controller */,
+			);
+			path = ConfirmacaoPagamento;
+			sourceTree = "<group>";
+		};
+		BF3B44A5222AD4BF00087D5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF3B44A6222AD4DD00087D5C /* ConfirmacaoPagamentoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		ED2E83D32229AD81000509A0 /* Pacotes */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,16 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				ED2E83DD2229CFC1000509A0 /* Controller */,
-				ED2E83DC2229CFBA000509A0 /* View */,
 			);
 			path = DetalhesViagem;
-			sourceTree = "<group>";
-		};
-		ED2E83DC2229CFBA000509A0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		ED2E83DD2229CFC1000509A0 /* Controller */ = {
@@ -367,6 +378,7 @@
 				ED2E83DF2229CFE0000509A0 /* DetalhesViagensViewController.swift in Sources */,
 				ED2E83E52229D817000509A0 /* PacoteViagemDAO.swift in Sources */,
 				BF2DFBA32228AEBE001D0E9C /* AppDelegate.swift in Sources */,
+				BF3B44A7222AD4DD00087D5C /* ConfirmacaoPagamentoViewController.swift in Sources */,
 				ED2E83DA2229AF7D000509A0 /* PacoteViagemCollectionViewCell.swift in Sources */,
 				BF2DFBD32228B5CA001D0E9C /* ViagemDAO.swift in Sources */,
 				ED2E83E12229D6B9000509A0 /* PacoteViagem.swift in Sources */,
