@@ -270,7 +270,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Procurar" id="Px8-PZ-b2G"/>
+                    <tabBarItem key="tabBarItem" title="Procurar" image="icon_search" id="Px8-PZ-b2G"/>
                     <connections>
                         <outlet property="tableView" destination="dAR-4A-8Fv" id="5v3-Az-Kbu"/>
                         <outlet property="viewHoteis" destination="Kqk-wi-bF2" id="So8-zn-Tet"/>
@@ -298,7 +298,7 @@
                                         <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="5ZN-b8-v6P">
+                                    <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="5ZN-b8-v6P">
                                         <rect key="frame" x="0.0" y="38" width="384" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="D3D-Vs-Fya"/>
@@ -389,7 +389,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cGb-8L-1Ry"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pacotes" id="LVl-FX-SDI"/>
+                    <tabBarItem key="tabBarItem" title="Pacotes" image="icon_package" id="LVl-FX-SDI"/>
                     <connections>
                         <outlet property="collectionView" destination="Osu-a1-k79" id="UUH-aO-Yzo"/>
                         <outlet property="labelContadorPacotes" destination="Q9B-oa-PAP" id="im1-Ay-quu"/>
@@ -846,5 +846,7 @@
         <image name="icon_back" width="50" height="50"/>
         <image name="icon_breakfast" width="50" height="50"/>
         <image name="icon_hotel" width="50" height="50"/>
+        <image name="icon_package" width="25" height="25"/>
+        <image name="icon_search" width="25" height="25"/>
     </resources>
 </document>
